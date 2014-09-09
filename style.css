@@ -1,8 +1,7 @@
 /* SMACSS - BASE */
 /* CSS Reset */
 html, body, div, span, applet, object, iframe,
-h4, h5, h6, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h4, h5, h6, blockquote, pre, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -17,6 +16,8 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 10px;
+  color:#000;
+  background-color:#FFF;
   text-align:center;
   font-family: Garamond, serif;
   vertical-align: baseline;
@@ -27,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 2em;
 }
 ol, ul {
   list-style: none;
@@ -41,7 +42,12 @@ q:before, q:after {
   content: none;
 }
 
-/* Universal h1-h3 and p settings*/
+/* Universal settings*/
+a{
+  font-weight:bold;
+  text-decoration:none;
+}
+
 h1{
   font-size:3em;
 }
@@ -59,28 +65,39 @@ p{
 
 
 /* SMACSS - LAYOUT */
+header{
+  margin: 0 auto;
+
+}
 .l-header {
   /*Styling for unique h1 and p*/
 }
 
 .l-nav{
   /*Styling for nav ul*/
+  font-size:2em;
+  margin: 0 auto;
+  width: 500px;
 
 }
+.nav {
+  float:left;
+  padding:0 37px;
+}
+
 
 /* MODULES */
 section{
-  margin:0px auto;
+  margin:50px auto;
   width:960px;
 }
 
 article{
   /*Styling that applies to ALL articles regardless of size*/
   float:left;
-  padding:;
   width:340px;
   height:340px;
-  border:2px solid red;
+  border:2px solid grey;
 }
 
 .article__main {

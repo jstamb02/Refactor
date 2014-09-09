@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>House Stark | About Us</title>
         <link rel="stylesheet" href="style.css">
+        <!-- Modernizr unecessary due to display-role-reset in CSS Reset?
         <script src="modernizr-2.8.3.min.js"></script> //Download necessary modernizr and update at the end of development.
+        -->
     </head>
     <body>
     <div id="wrapper">
@@ -14,10 +16,10 @@
         <p>Winter is Coming</p>
         <nav class="l-nav">
           <ul>
-            <li class="nav">Home</li> |
-            <li class="nav">Visit Winterfell</li> |
-            <li class="nav">About Us</li> |
-            <li class="nav">Send Raven</li>
+            <li class="nav"><a href="home.html">Home</a></li>
+            <li class="nav"><a href="visit.html">Visit Winterfell</a></li>
+            <li class="nav"><a href="about.html">About Us</a></li>
+            <li class="nav"><a href="contact.html">Send Raven</a></li>
           </ul>
 
         </nav>
@@ -54,21 +56,6 @@
     </section>
     </div>
 
-        <!--Only necessary if using jQuery
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-        -->
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <!-- <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script> -->
     </body>
 </html>
