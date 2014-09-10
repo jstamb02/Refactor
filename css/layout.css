@@ -1,0 +1,22 @@
+/* SMACSS - LAYOUT */
+header{
+  margin: 0 auto;
+
+}
+.l-header {
+  /*Styling for unique h1 and p*/
+}
+
+.l-nav{
+  /*Styling for nav ul*/
+  font-size:2em;
+  margin: 0 auto;
+  width: 500px;
+
+}
+.nav {
+  float:left;
+  padding:0 37px;
+}
+
+
