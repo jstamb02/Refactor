@@ -1,22 +1,28 @@
 /* SMACSS - LAYOUT */
-header{
-  margin: 0 auto;
-
+main {
+  float: left;
 }
+
+.wrapper {
+  margin: 0 auto;
+}
+
 .l-header {
   /*Styling for unique h1 and p*/
+  font-family: Arial, sans-serif;
+  font-size: 3em;
 }
 
-.l-nav{
+.l-nav {
   /*Styling for nav ul*/
   font-size:2em;
   margin: 0 auto;
   width: 500px;
-
 }
+
 .nav {
-  float:left;
-  padding:0 37px;
+  padding: 10px 15px;
+  display: inline;
 }
 
 
